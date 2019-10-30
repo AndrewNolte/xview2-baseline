@@ -60,6 +60,8 @@ The current total space needed is: about **10GB** compressed and about **11GB** 
 
 If you are using our pipeline the best way to format data is like so (the pipeline scripts `mask_polygons.py`, and `data_finalize.sh` provided in the repository expect this structure): 
 
+To reformat the data, run this script:
+`python data_restructure.py /path/to/data /path/to/xBD`
 ```
 xBD 
  ├── disaster_name_1
